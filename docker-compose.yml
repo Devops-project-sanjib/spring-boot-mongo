@@ -1,6 +1,6 @@
 services:
   springboot:
-    image: sanjib/spring-boot-mongo:latest
+    image: sanjib/spring-boot-mongo:${BUILD_NUMBER}
     restart: always # This will be ignored if we deploy in docker swarm
     environment:
     - MONGO_DB_HOSTNAME=mongo
