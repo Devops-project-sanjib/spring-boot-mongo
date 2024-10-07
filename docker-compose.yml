@@ -1,5 +1,5 @@
 services:
-  springboot:
+  springapp:
     image: sanjib/spring-boot-mongo:${spring_app}
     restart: always # This will be ignored if we deploy in docker swarm
     environment:
